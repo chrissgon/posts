@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Accordion</title>
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+      @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.min.css");
+
+      body{
+        height: 90vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      details {
+        width: 500px;
+        border-radius: 5px;
+        border: 1px solid #eee;
+        font-family: "Poppins";
+        font-size: 0.8rem;
+        position: relative;
+      }
+      summary {
+        cursor: pointer;
+        line-height: 1;
+        list-style: none;
+        padding: 10px 35px 10px 20px;
+      }
+      summary::before {
+        content: "\F282";
+        font-family: "bootstrap-icons";
+        position: absolute;
+        right: 15px;
+      }
+      article {
+        padding: 10px 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <details>
+      <summary>View more information</summary>
+      <article>This additional information will be displayed when the user clicks "View more information"</article>
+    </details>
+  </body>
+</html>
