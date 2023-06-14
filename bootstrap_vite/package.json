@@ -1,7 +1,6 @@
 {
-  "name": "@chrissgon/bootstrap_vite",
+  "name": "@your_npm_user/bootstrap_vite",
   "displayName": "Bootstrap Vite",
-  "description": "Bootstrap with Vite",
   "version": "1.0.0",
   "type": "module",
   "main": "dist/bootstrap.js",
@@ -11,7 +10,5 @@
   "devDependencies": {
     "vite": "^4.1.0",
     "sass": "^1.58.0"
-  },
-  "author": "Your Name",
-  "license": "ISC"
+  }
 }
