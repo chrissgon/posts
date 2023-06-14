@@ -1,7 +1,7 @@
-// imports
+/* imports */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
-// variables
+/* variables */
 $theme: (
   primary: #7611f6,
   secondary: #64748b,
@@ -13,13 +13,13 @@ $theme: (
 $rounded: 0.375rem;
 $textSM: 13px;
 
-// reset
+/* reset */
 body * {
   font-family: "Poppins", sans-serif;
   box-sizing: border-box;
 }
 
-// btn
+/* btn */
 .btn {
   border-radius: $rounded;
   border: 1px solid transparent;
