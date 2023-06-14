@@ -1,5 +1,5 @@
 {
-  "name": "bootstrap",
+  "name": "@chrissgon/bootstrap_vite",
   "displayName": "Bootstrap Vite",
   "version": "1.0.0",
   "type": "module",
