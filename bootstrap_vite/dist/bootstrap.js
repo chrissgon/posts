@@ -1,1 +1,0 @@
-(function(e){typeof define=="function"&&define.amd?define(e):e()})(function(){"use strict";const s={name:"@chrissgon/bootstrap_vite",displayName:"Bootstrap Vite",version:"1.0.1",type:"module",main:"dist/bootstrap.js",scripts:{build:"vite build"},devDependencies:{vite:"^4.1.0",sass:"^1.58.0"}};console.log(`🎨 ${s.displayName} - ${s.version}`);const a=""});
